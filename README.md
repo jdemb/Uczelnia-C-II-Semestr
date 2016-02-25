@@ -1,5 +1,5 @@
 # Laboratorium C, II semestr
-Stefan Sokołowski
+Jedrzej Dembowski
 
 [Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
