@@ -12,7 +12,7 @@ TABELA
 |float      |              3.4E-38|              3.4E+38|       0  |   6 | f   |
 |double     |             1.7E-308|             1.7E+308|       0  |  15 | lf  |
 |long double|             1.7E-308|             1.7E+308|       0  |  18 | Lf  |
-|-----------|---------------------|---------------------|----------|-----|-----|
+
 
 [Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
