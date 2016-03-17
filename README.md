@@ -27,9 +27,12 @@ TABELA
   * [x] [zadanie 0](lab2/zad0.c)
   * [x] [zadanie 1](lab2/zad1.c)
   * [x] [zadanie 2](lab2/zad2.c)
-  * [x] [zadanie 3](lab2/zad3.c)
+  * [ ] [zadanie 3](lab2/zad3.c)
 3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c)
   * [x] [zadanie 2](lab3/zad2.c)
   * [x] [zadanie 3](lab3/zad3.c)
   * [x] [zadanie 4](lab3/zad4.c)
+4. [Laboratorium 4](Lab4) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):  
+  * [x] [zadanie 1](lab4/zad1.c)
+  * [ ] [zadanie 2](lab4/zad2.c)
