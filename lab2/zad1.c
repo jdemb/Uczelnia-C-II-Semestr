@@ -1,7 +1,8 @@
+//Napisać program, który wczytuje tekst aż do EOF, a następnie drukuje bitowe obrazy wczytanych znaków.
 #include <stdio.h>
 #include <stdlib.h>
 
-void na_binarne(int z)
+void dec_bin(int x)
 {
   int tab[8];
   int i=0;

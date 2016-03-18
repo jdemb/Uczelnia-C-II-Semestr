@@ -1,3 +1,10 @@
+/*
+Sprawdzić, wykonując odpowiednie testy, jak działają operacje rzutowania z typów ,,mniejszych'' do ,,większych'' i odwrotnie. Na przykład, czemu są równe:
+
+    (int)FLT_MAX
+    (int)DBL_MAX
+    (double)LDBL_MAX
+*/
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>

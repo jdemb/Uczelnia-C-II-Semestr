@@ -1,3 +1,8 @@
+/*program, który
+
+    wczytuje dzień (między 1 a 31), miesiąc (między 1 a 12) i rok (liczbę całkowitą dodatnią, niewiększą niż 223−1),
+    wszystkie trzy dane pakuje do jednej 32-bitowej liczby całkowitej, jak na poniższym rysunku
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
