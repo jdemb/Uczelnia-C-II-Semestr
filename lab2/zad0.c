@@ -1,3 +1,13 @@
+/*
+Jakie będą wyniki następujących działań?
+
+    5&3
+    5|3
+    7<<2&7
+    7<<(2&7)
+    ((-1)<<8)>>16
+    13^9
+*/
 #include<stdio.h>
 
 int main()
