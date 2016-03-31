@@ -6,9 +6,8 @@ double complex epowzespolona(double complex z,double zreal,double zim)
 	if(zreal==0)
 	return epowim(zim);
 	else
-	{
-		return powz(z,100)/silnia(100);
-	}
+	return powz(z,100)/silnia(100);
+	
 }
 
 double complex epowim(double r)
