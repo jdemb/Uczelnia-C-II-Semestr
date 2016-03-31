@@ -27,8 +27,7 @@ TABELA
   * [x] [zadanie 0](lab2/zad0.c)
   * [x] [zadanie 1](lab2/zad1.c)
   * [x] [zadanie 2](lab2/zad2.c)
-  * [x] [zadanie 3 kodowanie](lab2/zad3code.c)
-  * [x] [zadanie 3 dekodowanie](lab2/zad3uncode.c)
+  * [ ] [zadanie 3](lab2/zad3.c)
 3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c)
   * [x] [zadanie 2](lab3/zad2.c)
