@@ -1,19 +1,19 @@
 
-/* Ten program obs³uguje du¿y spis osób opisanych struktur¹:
+/* Ten program obsï¿½uguje duï¿½y spis osï¿½b opisanych strukturï¿½:
   typedef struct {
     char imie[IMIE_MAX+1];
     char nazwisko[NAZW_MAX+1];
     int pensja;
   } osoba;
   osoba spis[IL_OSOB];
-Jego inicjalizacja sk³ada siê z wywo³ania funkcji:
-    utworz_spis -- napisanej przeze mnie, mo¿na do niej nie zagl¹daæ;
-    sortuj_spis -- któr¹ trzeba napisaæ samemu. 
-Po inicjalizacji program pyta o nazwisko lub imiê osoby i znajduje w spisie brakuj¹ce dane na jej temat: imiê, nazwisko i pensjê.
-Nale¿y napisaæ cia³a funkcji znajdz_nazwisko oraz znajdz_imie -- ich nag³ówki i komentarze opisuj¹ce sposób dzia³ania s¹ w programie podane.
-W pierwszej wersji mo¿na nie realizowaæ funkcji sortuj_spis, a wyszukiwanie zorganizowaæ jakkolwiek. W drugiej (lepszej) wersji zrobiæ funkcjê sortuj_spis i w wyszukiwaniu wg nazwisk wykorzystaæ fakt, ¿e spis jest uporz¹dkowany.
+Jego inicjalizacja skï¿½ada siï¿½ z wywoï¿½ania funkcji:
+    utworz_spis -- napisanej przeze mnie, moï¿½na do niej nie zaglï¿½daï¿½;
+    sortuj_spis -- ktï¿½rï¿½ trzeba napisaï¿½ samemu.
+Po inicjalizacji program pyta o nazwisko lub imiï¿½ osoby i znajduje w spisie brakujï¿½ce dane na jej temat: imiï¿½, nazwisko i pensjï¿½.
+Naleï¿½y napisaï¿½ ciaï¿½a funkcji znajdz_nazwisko oraz znajdz_imie -- ich nagï¿½ï¿½wki i komentarze opisujï¿½ce sposï¿½b dziaï¿½ania sï¿½ w programie podane.
+W pierwszej wersji moï¿½na nie realizowaï¿½ funkcji sortuj_spis, a wyszukiwanie zorganizowaï¿½ jakkolwiek. W drugiej (lepszej) wersji zrobiï¿½ funkcjï¿½ sortuj_spis i w wyszukiwaniu wg nazwisk wykorzystaï¿½ fakt, ï¿½e spis jest uporzï¿½dkowany.
 Uwaga:
-Czêœci programu napisanych przeze mnie nie wolno zmieniaæ. Nale¿y tylko dopisaæ cia³a funkcji sortuj_spis, znajdz_nazwisko i znajdz_imie.
+Czï¿½ï¿½ci programu napisanych przeze mnie nie wolno zmieniaï¿½. Naleï¿½y tylko dopisaï¿½ ciaï¿½a funkcji sortuj_spis, znajdz_nazwisko i znajdz_imie.
 */
 
 #include<stdio.h>
@@ -34,7 +34,8 @@ osoba spis[IL_OSOB];
 
 //=======================================================
 
-void  utworz_spis(void) {
+void  utworz_spis(void)
+{
   FILE* baza =
     fopen("/home/pracinf/stefan/public_html/Dydaktyka/JezProg/Slajdy/Labs05/baza_danych",
   "r");
@@ -49,7 +50,7 @@ void  utworz_spis(void) {
 }
 
 //=======================================================
-void  sortuj_spis(void) 
+void  sortuj_spis(void)
 {
 	int i, j;
 	char tempi[IMIE_MAX+1]; //imie
@@ -71,10 +72,10 @@ void  sortuj_spis(void)
 				strcpy(spis[j].imie, tempi);
 				spis[j].pensja=tempp;
 			}
-			
+
 			if (strcmp(spis[i].nazwisko, spis[j].nazwisko) == 0)
 			{
-				if (strcmp(spis.[i].imie, spis[j].imie) > 0)
+				if (strcmp(spis[i].imie, spis[j].imie) > 0)
             		{
 					strcpy(tempi, spis[i].imie);
 					tempp = spis[i].pensja;
@@ -92,36 +93,42 @@ void  sortuj_spis(void)
 }
 //=======================================================
 
-int  znajdz_nazwisko (char na[NAZW_MAX+1])
+int  znajdz_nazwisko (char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 {
 	int i;
 	for(i=0; i<IL_OSOB; i++)
 	{
 		if(strcmp(spis[i].nazwisko,na) == 0)
-		return 1;
-			
+		{
+			strcpy(im,spis[i].imie);
+			*p = spis[i].pensja;
+			return 1;
+		}
 	}
+
 	return 0;
 }
 
 //=======================================================
 
-int  znajdz_imie (char im[NAZW_MAX+1])
+int  znajdz_imie (char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
 {
-	int i;	
+	int i;
 	for(i=0; i<IL_OSOB; i++)
 	{
-		if(strcmp(spis[i].imie,im) == 0)
+		if(strcmp(spis[i].imie,im) == 0){
+		strcpy(na,spis[i].nazwisko);
+		*p = spis[i].pensja;
 		return 1;
-			
+		}
 	}
-	
-	return 0;
-}
+  	return 0;
+  }
 
 //=======================================================
 
-int main () {
+int main ()
+{
   char odpowiedz, im[NAZW_MAX+1], na[IMIE_MAX+1];
   int p;
 
@@ -158,6 +165,3 @@ int main () {
   printf("\n DZIEKUJE.\n\n");
   return 0;
 }
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
-
