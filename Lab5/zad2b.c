@@ -8,8 +8,8 @@
 #define IL_OSOB 10
 
 typedef struct {
-  char nazwisko[NAZW_MAX+1];
   char imie[IMIE_MAX+1];
+  char nazwisko[NAZW_MAX+1];
   int pensja;
 } osoba;
 
@@ -32,10 +32,11 @@ void  utworz_spis(void)
 }
 int my_compare (const void * a, const void * b)
 {
-    char const *aa = (char const *)a;
-    char const *bb = (char const *)b;
+    osoba *osoba_a, *osoba_b;
+    osoba_a = (osoba*)a;
+    osoba_b = (osoba*)b;
 
-    return strcmp(aa, bb);
+    return strcmp(osoba_a->nazwisko, osoba_b->nazwisko);
 }
 //=======================================================
 void  sortuj_spis(void)
@@ -56,14 +57,17 @@ void  sortuj_spis(void)
 int  znajdz_nazwisko (char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 {
 	int a=bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
-	if(a!=0)
+	if(a=NULL)
+	return 0;
+	else
     {
+    	osoba *osoba_a;
+        osoba_a = (osoba*)a;
     	strcpy(im,spis[a].imie);
     	*p=spis[a].pensja;
     	return 1;
 	}
-	else
-  	return 0;
+	
 }
 
 //=======================================================
