@@ -3,13 +3,13 @@
 #include<string.h>
 #include<ctype.h>
 
-#define IMIE_MAX 10
+#define IMIE_MAX 15
 #define NAZW_MAX 15
 #define IL_OSOB 10
 
 typedef struct {
-  char imie[IMIE_MAX+1];
   char nazwisko[NAZW_MAX+1];
+  char imie[IMIE_MAX+1];
   int pensja;
 } osoba;
 
@@ -24,7 +24,7 @@ void  utworz_spis(void)
   if (baza == NULL) printf("\n ZLE\n\n");
   int i;
   for (i=0; i<IL_OSOB; i++) {
-    fscanf(baza, "%s", spis[i].imie);
+  	fscanf(baza, "%s", spis[i].imie);
     fscanf(baza, "%s", spis[i].nazwisko);
     fscanf(baza, "%i", &spis[i].pensja);
   }
@@ -55,34 +55,34 @@ void  sortuj_spis(void)
 
 int  znajdz_nazwisko (char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 {
-	int i;
-	for(i=0; i<IL_OSOB; i++)
-	{
-		if(strcmp(spis[i].nazwisko,na) == 0)
-		{
-			strcpy(im,spis[i].imie);
-			*p = spis[i].pensja;
-			return 1;
-		}
+	int a=bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
+	if(a!=0)
+    {
+    	strcpy(im,spis[a].imie);
+    	*p=spis[a].pensja;
+    	return 1;
 	}
-
-	return 0;
+	else
+  	return 0;
 }
 
 //=======================================================
 
 int  znajdz_imie (char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
 {
-	int a=bsearch(im, spis, IL_OSOB, sizeof(osoba), my_compare);
-	printf("%d", a);
-    if(a!=0)
-    {
-    	strcpy(na,spis[a].nazwisko);
-    	*p=spis[a].pensja;
-    	return 1;
+	
+  	int i;
+	for(i=0; i<IL_OSOB; i++)
+	{
+		if(strcmp(spis[i].imie,na) == 0)
+		{
+			strcpy(na,spis[i].nazwisko);
+			*p = spis[i].pensja;
+			return 1;
+		}
 	}
-	else
-  	return 0;
+
+	return 0;
   }
 
 //=======================================================
