@@ -43,3 +43,5 @@ TABELA
     * [x] [zadanie 2b](Lab5/zad2b.c)
 6. [Laboratorium 6](Lab6) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
     * [x] [zadanie 1] (Lab6/zad1.c)  
+    * [x] [zadanie 2] (Lab6/glowny.c)  
+	* [x] [zadanie 3] (Lab6/glowny.c)  
