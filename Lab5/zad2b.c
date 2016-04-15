@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -9,8 +8,8 @@
 #define IL_OSOB 10
 
 typedef struct {
-    char imie[IMIE_MAX + 1];
     char nazwisko[NAZW_MAX + 1];
+    char imie[IMIE_MAX + 1];
     int pensja;
 } osoba;
 
@@ -59,17 +58,17 @@ void sortuj_spis(void)
 
 int znajdz_nazwisko(char na[NAZW_MAX + 1], char im[IMIE_MAX + 1], int *p)
 {
-    int a = bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
-    if (a = NULL)
-	return 0;
-    else {
-	osoba *osoba_a;
-	osoba_a = (osoba *) a;
-	strcpy(im, spis[a].imie);
-	*p = spis[a].pensja;
-	return 1;
+    void *a = bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
+    if (a)
+    {
+      osoba *osoba_a;
+      osoba_a = (osoba *) a;
+      strcpy(im, osoba_a->imie);
+	    *p = osoba_a->pensja;
+	    return 1;
     }
-
+    else
+    return 0;
 }
 
 //=======================================================
@@ -79,7 +78,7 @@ int znajdz_imie(char im[NAZW_MAX + 1], char na[IMIE_MAX + 1], int *p)
 
     int i;
     for (i = 0; i < IL_OSOB; i++) {
-	if (strcmp(spis[i].imie, na) == 0) {
+	if (strcmp(spis[i].imie, im) == 0) {
 	    strcpy(na, spis[i].nazwisko);
 	    *p = spis[i].pensja;
 	    return 1;
