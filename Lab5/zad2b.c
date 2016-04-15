@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -58,13 +59,11 @@ void sortuj_spis(void)
 
 int znajdz_nazwisko(char na[NAZW_MAX + 1], char im[IMIE_MAX + 1], int *p)
 {
-    void *a = bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
+    osoba *a = (osoba*)bsearch(na, spis, IL_OSOB, sizeof(osoba), my_compare);
     if (a)
     {
-      osoba *osoba_a;
-      osoba_a = (osoba *) a;
-      strcpy(im, osoba_a->imie);
-	    *p = osoba_a->pensja;
+      strcpy(im, a->imie);
+	    *p = a->pensja;
 	    return 1;
     }
     else
