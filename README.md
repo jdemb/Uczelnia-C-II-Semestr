@@ -32,16 +32,16 @@ TABELA
 3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c)
   * [x] [zadanie 2](lab3/zad2.c)
-  * [x] [zadanie 3](lab3/zad3.c) uzupelnione o odpowiedzi innych grup
+  * [x] [zadanie 3](lab3/zad3.c) uzupelnione o odpowiedzi innych grup (poprawic wypisywanie typow long (int32))
   * [x] [zadanie 4](lab3/zad4.c)
 4. [Laboratorium 4](Lab4) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):  
   * [x] [zadanie 1](Lab4/zad1.c)(poprawione)
   * [x] [zadanie 2](Lab4/zad2.c)
 5. [Laboratorium 5](Lab5) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs05/):  
-    * [x] [zadanie 1](Lab5/zad1.c)
-    * [x] [zadanie 2](Lab5/zad2.c)
-    * [x] [zadanie 2b](Lab5/zad2b.c)
+   * [x] [zadanie 1](Lab5/zad1.c)
+   * [x] [zadanie 2](Lab5/zad2.c)
+   * [x] [zadanie 2b](Lab5/zad2b.c) (poprawic nieokreslone tablice i linia polecen)
 6. [Laboratorium 6](Lab6) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
-    * [x] [zadanie 1] (Lab6/zad1.c)  
-    * [x] [zadanie 2] (Lab6/glowny.c)  
-	* [x] [zadanie 3] (Lab6/glowny.c)  
+   * [x] [zadanie 1] (Lab6/zad1.c)  
+   * [x] [zadanie 2] (Lab6/glowny.c)  
+   * [x] [zadanie 3] (Lab6/glowny.c)  
