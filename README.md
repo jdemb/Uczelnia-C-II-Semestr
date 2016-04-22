@@ -36,7 +36,7 @@ TABELA
   * [x] [zadanie 4](lab3/zad4.c)
 4. [Laboratorium 4](Lab4) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):  
   * [x] [zadanie 1](Lab4/zad1.c)(poprawione)
-  * [x] [zadanie 2](Lab4/zad2.c)
+  * [x] [zadanie 2](Lab4/zad2.c)(do poprawy)
 5. [Laboratorium 5](Lab5) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs05/):  
    * [x] [zadanie 1](Lab5/zad1.c)
    * [x] [zadanie 2](Lab5/zad2.c)
