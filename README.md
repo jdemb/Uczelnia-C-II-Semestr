@@ -42,6 +42,6 @@ TABELA
    * [x] [zadanie 2](Lab5/zad2.c)
    * [x] [zadanie 2b](Lab5/zad2b.c) (poprawic nieokreslone tablice i linia polecen)
 6. [Laboratorium 6](Lab6) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
-   * [x] [zadanie 1] (Lab6/zad1.c)  
+   * [x] [zadanie 1] (Lab6/zad1.c)  (ma działać na listach czegokolwiek)
    * [x] [zadanie 2] (Lab6/glowny.c)  (niedokończone)
    * [x] [zadanie 3] (Lab6/glowny.c)  (niedokończone)
