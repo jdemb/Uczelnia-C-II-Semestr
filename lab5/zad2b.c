@@ -7,7 +7,7 @@
 #define IMIE_MAX 15
 #define NAZW_MAX 15
 #define IL_OSOB 10
-
+//int IL_OSOB
 typedef struct {
     char nazwisko[NAZW_MAX + 1];
     char imie[IMIE_MAX + 1];
@@ -18,9 +18,9 @@ osoba spis[IL_OSOB];
 
 //=======================================================
 
-void utworz_spis(void)
+void utworz_spis(char* nazwapliku)
 {
-    FILE *baza = fopen("nieposortowane.txt", "r");
+    FILE *baza = fopen(nazwapliku, "r");
     if (baza == NULL)
 	printf("\n ZLE\n\n");
     int i;
@@ -91,12 +91,14 @@ int znajdz_imie(char im[NAZW_MAX + 1], char na[IMIE_MAX + 1], int *p)
 
 //=======================================================
 
-int main()
+int main(char* arg[])
 {
+    char nazwapliku[255]={"nieposortowane.txt"};
     char odpowiedz, im[NAZW_MAX + 1], na[IMIE_MAX + 1];
     int p;
 
-    utworz_spis();
+    sscanf(arg[1], "%s", nazwapliku);
+    utworz_spis(nazwapliku);
     sortuj_spis();
 
     do {

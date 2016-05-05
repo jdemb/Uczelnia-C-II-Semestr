@@ -7,14 +7,15 @@
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
+#include <stdint.h>
 #define printf __mingw_printf // gdy pracujemy na windowsie
 int main()
 {
-  printf("FLT_MAX -> (int)FLT_MAX:\n%e -> %i\n\n", FLT_MAX, (int)FLT_MAX);
+  printf("FLT_MAX -> (int)FLT_MAX:\n%e -> %i\n\n", FLT_MAX, (int32_t)FLT_MAX);
   //wyznacza maksymalna (czyli jak najblizsza zadanej(float)) liczbe w innym typie (int)
   printf("INT_MAX -> (float)INT_MAX:\n%i -> %e\n\n", INT_MAX, (float)INT_MAX);
   //wypisuje maksymalna wartosc inta (float > int)
-  printf("DBL_MAX -> (int)DBL_MAX:\n%e -> %i\n", DBL_MAX, (int)DBL_MAX);
+  printf("DBL_MAX -> (int)DBL_MAX:\n%e -> %i\n", DBL_MAX, (int32_t)DBL_MAX);
   //wyznacza maksymalna (czyli jak najblizsza zadanej(double)) liczbe w innym typie (int)
   printf("Wartosc double max wychodzi poza maksymalna wartosc inta, zatem drukowana jest wartosc maksymalna inta.\n\n");
   printf("INT_MAX -> (double)INT_MAX:\n%i -> %e\n\n", INT_MAX, (double)INT_MAX);
