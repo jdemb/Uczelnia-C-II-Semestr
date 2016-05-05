@@ -45,3 +45,11 @@ TABELA
    * [x] [zadanie 1] (Lab6/zad1.c)  (ma działać na listach czegokolwiek)
    * [x] [zadanie 2] (Lab6/glowny.c)  (niedokończone)
    * [x] [zadanie 3] (Lab6/glowny.c)  (niedokończone)
+7. [Laboratorium 7](Lab7) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs07/):  
+   * [x] [zadanie 1](Lab7/zad1.c)
+   * [x] [zadanie 2](Lab7/zad2.c)
+8. [Laboratorium 8](Lab8) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs08/):   
+   * [x] [zadanie 1](Lab8/zad1.c)
+   * [x] [zadanie 2](Lab8/zad2.c)
+   * [x] [zadanie 3](Lab8/zad3.c)
+   * [x] [zadanie 4](Lab8/zad4.c) 
