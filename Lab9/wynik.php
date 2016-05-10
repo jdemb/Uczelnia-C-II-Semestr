@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>kalkulejtor</title>
+</head>
+<body>
+<span style="color:red">
+WYNIK: </span>
+<?php 
+$arg1=$_REQUEST['arg1'];
+$arg2=$_REQUEST['arg2'];
+$znak=$_REQUEST['op'];
+if ($znak == "+")
+	$wynik=$arg1+$arg2;
+elseif ($znak == "-")
+	$wynik = $arg1 - $arg2;
+elseif($znak == "*")
+	$wynik = $arg1 * $arg2;
+elseif($znak == "/")
+	$wynik = $arg1 / $arg2;
+echo "<b>$arg1</b> $znak <b>$arg2</b> == <b>$wynik</b>";
+?>
+<br ><a href="kalkulejtor.php">Kalkulejtor</a>
+</body>
+</html>
+
