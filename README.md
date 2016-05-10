@@ -55,4 +55,4 @@ TABELA
    * [x] [zadanie 4](Lab8/zad4.c) 
 9. [Laboratorium 9](Lab9) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):  
    * [x] zadanie 1 [kalkulator](Lab9/kalkulejtor.php) 
-                   [wynik]((Lab9/wynik.php)
+   *               [wynik]((Lab9/wynik.php)
