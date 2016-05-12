@@ -1,6 +1,10 @@
 # Laboratorium C, II semestr
 Jedrzej Dembowski
 
+|MOJA STRONA NA SERWERZE SIGMA|
+|-------------------------------------------|
+|http://sigma.ug.edu.pl/~jdembowski/|
+
 TABELA
 
 |typ        |                  min|                  max|    ziarno| prec|we/wy|
@@ -53,8 +57,11 @@ TABELA
    * [x] [zadanie 2](Lab8/zad2.c)
    * [x] [zadanie 3](Lab8/zad3.c)
    * [x] [zadanie 4](Lab8/zad4.c) 
-9. [Laboratorium 9](Lab9) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/): 
-    * [moja strona na sigmie](http://sigma.ug.edu.pl/~jdembowski)
+9. [Laboratorium 9](Lab9) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/): 
    * [x] zadanie 1 [kalkulator](Lab9/kalkulejtor.php) [wynik](Lab9/wynik.php)
    * [x] zadanie 2 [zapisy](Lab9/zapisy.php) [impreza](Lab9/impreza.php)
    * [x] zadanie 3 [licznik](Lab9/licznik.php) 
+    (wszystkie skrypty można uruchomić na mojej stronie na sigmie)
+9. [Laboratorium 10](Lab10) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/): 
+   * [x] zadanie 1 [klikanie](Lab10/klikanie.php) 
+    (wszystkie skrypty można uruchomić na mojej stronie na sigmie)
