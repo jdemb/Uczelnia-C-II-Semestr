@@ -1,7 +1,7 @@
-//Jakie bêd¹ skutki rozwiniêcia nastêpuj¹cej makrodefinicji?
-//Najpierw zgadn¹æ, a potem sprawdziæ komend¹
+//Jakie bÄ™dÅ¡ skutki rozwiniÄ™cia nastÄ™pujÅ¡cej makrodefinicji?
+//Najpierw zgadnÅ¡Ä‡, a potem sprawdziÄ‡ komendÅ¡
 //gcc -E plik
-//Na pewno wypisze ze W Polszy OBOWIAZUJE zloty podobnie z reszta krajow
+//W Polsce OBOWIAZUJE zloty, podobnie z reszta krajow
 #define INFO(kraj, waluta) W kraj OBOWIAZUJE waluta.
 INFO(Polsce, zloty)
 INFO(Rosji, rubel)
