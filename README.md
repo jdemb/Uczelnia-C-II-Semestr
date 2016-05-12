@@ -53,7 +53,8 @@ TABELA
    * [x] [zadanie 2](Lab8/zad2.c)
    * [x] [zadanie 3](Lab8/zad3.c)
    * [x] [zadanie 4](Lab8/zad4.c) 
-9. [Laboratorium 9](Lab9) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):  
+9. [Laboratorium 9](Lab9) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/): 
+[moja strona na sigmie](sigma.ug.edu.pl/~jdembowski)
    * [x] zadanie 1 [kalkulator](Lab9/kalkulejtor.php) [wynik](Lab9/wynik.php)
    * [x] zadanie 2 [zapisy](Lab9/zapisy.php) [impreza](Lab9/impreza.php)
    * [x] zadanie 3 [licznik](Lab9/licznik.php) 
