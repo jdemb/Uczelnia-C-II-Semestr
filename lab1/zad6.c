@@ -22,9 +22,4 @@ int main()
       // najpierw zwiekszamy indeks tablicy o jeden a potem przypisujemy wartosc i
       i=1; while ((i*=2)<N);
       // dopoki i jest mniejsze od n to jest mnozone przez 2
-
-
-
-
-return 0;
 }
