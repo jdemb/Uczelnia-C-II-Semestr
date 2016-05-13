@@ -5,7 +5,7 @@ Jedrzej Dembowski
 |-------------------------------------------|
 |http://sigma.ug.edu.pl/~jdembowski/|
 
-Tabela
+
 |typ        |                  min|                  max|    ziarno| prec|we/wy|
 |-----------|---------------------|---------------------|----------|-----|-----|
 |short      |               -32768|                32767|          |     | i   |
