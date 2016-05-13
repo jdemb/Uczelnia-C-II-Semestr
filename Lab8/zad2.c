@@ -6,7 +6,7 @@
  	Najwyzszym szczytem Australii jest Gora Kosciuszki.
 i żeby nie powtarzać tych samych jego słów wielokrotnie. */
 
-#define INFO(kraj, szczyt) Najwyzszym szczytem #kraj jest #szczyt.
+#define INFO(kraj, szczyt) Najwyzszym szczytem kraj jest szczyt.
 INFO(Azji, Mt. Everest)
 INFO(Europy, Elbrus)
 INFO(Afryki, Kilimandzaro)
