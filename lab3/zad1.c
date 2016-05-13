@@ -57,7 +57,4 @@ int main()
   fprintf(fp,"|long double|             1.7E-308|             1.7E+308|       %d  |  %d | Lf  |\n",ziarno,precyzja);
   fprintf(fp,"|------------------------------------------------------------------------------|\n");
   fclose (fp);
-
-
-return 0;
 }
