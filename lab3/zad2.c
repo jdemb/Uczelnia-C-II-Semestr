@@ -23,5 +23,4 @@ int main()
   long double ldl=0.00000000000000005;
   long double ldl2=dl/4.0;
   printf("Long double: %Lf / 4 = %Lf\n", ldl, ldl2);
-  return 0;
 }
