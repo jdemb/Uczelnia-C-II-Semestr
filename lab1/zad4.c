@@ -13,10 +13,4 @@ int main()
   if (n=0)   printf("rowne\n");
   else   printf("nierowne\n");
   // wyswietli nierowne
-
-
-
-
-
-return 0;
 }
