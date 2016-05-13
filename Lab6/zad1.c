@@ -69,5 +69,4 @@ int main()
   lista lis=NULL;
   lis=dolacz("abc", dolacz("def", dolacz("ghi", lis)));
   druk(odwroc(lis));
-  return 0;
 }
