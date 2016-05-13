@@ -84,5 +84,5 @@ int main (int arg_num, char* arg[])
   }
   else
     printf("\n Niepoprawne wywolanie: './porzadkuj baza_danych.txt posortowane.txt'\n\n");
-  return 0;
+
 }
