@@ -28,5 +28,4 @@ int main()
         m=scanf("%i", &n);
     }
     printf("\n");
-    return 0;
 }
