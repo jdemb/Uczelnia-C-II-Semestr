@@ -5,6 +5,16 @@ Jedrzej Dembowski
 |-------------------------------------------|
 |http://sigma.ug.edu.pl/~jdembowski/|
 
+Tabela
+|typ        |                  min|                  max|    ziarno| prec|we/wy|
+|-----------|---------------------|---------------------|----------|-----|-----|
+|short      |               -32768|                32767|          |     | i   |
+|int        |          -2147483648|           2147483647|          |     | d   |
+|long       |          -2147483648|           2147483647|          |     | li  |
+|long long  | -9223372036854775808|  9223372036854775807|          |     | lli |
+|float      |              3.4E-38|              3.4E+38|       0  |   6 | f   |
+|double     |             1.7E-308|             1.7E+308|       0  |  15 | lf  |
+|long double|             1.7E-308|             1.7E+308|       0  |  18 | Lf  |
 
 [Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
@@ -23,16 +33,6 @@ Jedrzej Dembowski
   * [x] [zadanie 3 dekodowanie](lab2/zad3uncode.c)
 3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c)
-  * Tabela
-|typ        |                  min|                  max|    ziarno| prec|we/wy|
-|-----------|---------------------|---------------------|----------|-----|-----|
-|short      |               -32768|                32767|          |     | i   |
-|int        |          -2147483648|           2147483647|          |     | d   |
-|long       |          -2147483648|           2147483647|          |     | li  |
-|long long  | -9223372036854775808|  9223372036854775807|          |     | lli |
-|float      |              3.4E-38|              3.4E+38|       0  |   6 | f   |
-|double     |             1.7E-308|             1.7E+308|       0  |  15 | lf  |
-|long double|             1.7E-308|             1.7E+308|       0  |  18 | Lf  |
   * [x] [zadanie 2](lab3/zad2.c)
   * [x] [zadanie 3](lab3/zad3.c) uzupelnione o odpowiedzi innych grup
   * [x] [zadanie 4](lab3/zad4.c)
