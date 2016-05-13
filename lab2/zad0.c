@@ -25,10 +25,4 @@ int main()
     printf("%d\n", a); // -1
     a=13^9;
     printf("%d\n", a); // 4
-
-
-
-
-
-return 0;
 }
