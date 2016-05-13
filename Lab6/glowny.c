@@ -88,5 +88,4 @@ int main(int argnum, char* arg[])
   printf("\nTautologia: %s\n", tautologia ? "TAK" : "NIE");
   printf("Spelnialna: %s\n\n", spelnialna ? "TAK" : "NIE");
   if(lex!=EOF && lex!='\n') blad("smieci na koncu");
-  return 0;
 }
