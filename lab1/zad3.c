@@ -12,7 +12,4 @@ int main()
     printf("po zmianie a wynosi: %d\n", a);
     b = (b %= 3) + (b %= 4) + ( a += 2);
     printf("po magicznej zamianie b wynosi: %d\n", b);
-
-
-return 0;
 }
