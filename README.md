@@ -39,7 +39,7 @@ Jedrzej Dembowski
   * [x] [zadanie 4](lab3/zad4.c)
 4. [Laboratorium 4](Lab4) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):  
   * [x] [zadanie 1](Lab4/zad1.c)(poprawione)
-  * [x] [zadanie 2](Lab4/zad2.c)
+  * [x] [zadanie 2](Lab4/zad2.c) (użyte funkcje biblioteki complex)
 5. [Laboratorium 5](Lab5) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs05/):  
    * [x] [zadanie 1](Lab5/zad1.c)
    * [x] [zadanie 2](Lab5/zad2.c)
@@ -49,7 +49,7 @@ Jedrzej Dembowski
    * [x] [zadanie 2] (Lab6/glowny.c)  
    * [x] [zadanie 3] (Lab6/glowny.c)  
 7. [Laboratorium 7](Lab7) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs07/):  
-   * [x] [zadanie 1](Lab7/zad1.c)
+   * [x] [zadanie 1](Lab7/zad1.c) z funkcją print_array
    * [x] [zadanie 2](Lab7/zad2.c)
 8. [Laboratorium 8](Lab8) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs08/):   
    * [x] [zadanie 1](Lab8/zad1.c)
