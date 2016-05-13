@@ -1,60 +1,26 @@
 #include <stdio.h>
 #include <complex.h>
 #include <math.h>
-double complex epowzespolona(double complex z,double zreal,double zim)
-{
-	if(zreal==0)
-	return epowim(zim);
-	else
-	return powz(z,100)/silnia(100);
-	
-}
 
-double complex epowim(double r)
-{
-	return cos(r) + sin(r)i;
-}
+int main(){
 
-int silnia(int a)
-{
-	int i;
-	for(i=a-1; i>1; i--)
-	a*=i;
-	return a;
-}
+  double complex imaginalis = 0 - 1*I;
+  double complex tozsamosc = cpow(M_E, M_PI*imaginalis);
+  printf("\nTozsamosc Eulera: (e^(pi*i))+1 = %lf\n", creal(tozsamosc)+cimag(tozsamosc)+1); //tozsamosc Eulera spelniona drukuje -0 
 
-double complex powz(double complex z,k)
-{
-	int i;
-	for(i=1; i<k;i++)
-	double complex multiply = z * z;
-	return z;
-}
-int main() {
+  //Podnoszenie do potegi urojonej
+  int r = 5;
+  //e^ri = cos(r) + sin(r)*i
+  double complex potega_urojona = cos(r) + imaginalis*sin(r);
+  printf("e^%di = %lf + %lf\n", r, creal(potega_urojona), cimag(potega_urojona)); //https://www.wolframalpha.com/input/?i=e^%285i%29
+  //powinno sie rownac 0.283662 + 0.958924i
 
-    double z1rea, z2rea, z1ima, z2ima;
-    printf("Podaj rea z1 :\n");
-    scanf("%lf",&z1rea);
-    printf("Podaj ima z1 :\n");
-    scanf("%lf",&z1ima);
-    printf("Podaj rea z2 :\n");
-    scanf("%lf",&z2rea);
-    printf("Podaj ima z2 :\n");
-    scanf("%lf",&z2ima);
-    double complex z1 = z1rea + z1ima * I;
-    double complex z2 = z2rea + z2ima * I;
-    //Wypisanie liczb zespolonych
-    printf("Wartosci: Z1 = %.2f + %.2fi, Z2 = %.2f + %.2fi\n", creal(z1), cimag(z1), creal(z2), cimag(z2));
-    //Dodawanie liczb zespolonych
-    double complex sum = z1 + z2;
-    printf("Suma Z1 + Z2 = %.2f %+.2fi\n", creal(sum), cimag(sum));
-    //Odejmowanie liczb zespolonych
-    double complex difference = z1 - z2;
-    printf("Roznica Z1 - Z2 = %.2f %+.2fi\n", creal(difference), cimag(difference));
-    //Mnożenie liczb zespolonych
-    double complex multiply = z1 * z2;
-    printf("Roznica Z1 * Z2 = %.2f %+.2fi\n", creal(multiply), cimag(multiply));
-
+  //Podnoszenie do potegi zespolonej
+  //e^z  =  ∑k=0∞ zk/k!
+  double complex liczba_zespolona = r + r*I;
+  double complex potega_zespolona = cpow(M_E, liczba_zespolona);
+  printf("e^(%d + %d * I) = %lf  %+lf", r, r, creal(potega_zespolona), cimag(potega_zespolona));//https://www.wolframalpha.com/input/?i=e^%285%2B5i%29
+  //Powinno byc 42.099201  -142.316981
 
 
 }
