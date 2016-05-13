@@ -47,5 +47,4 @@ int main()
         tab[j]=' ';
         printf("%i\n",klucz(pakowanie(tab)));
     }
-    return 0;
 }
