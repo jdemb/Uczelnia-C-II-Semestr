@@ -24,5 +24,4 @@ int main (int ile_arg, char* arg[ ])
     char c;
     c = getchar();
     print_tab(&ile_arg, arg,&c);
-    return 0;
 }
