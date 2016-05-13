@@ -15,8 +15,4 @@ int main()
   if ((a=2) & (b=4))   printf(" TAK\n");
   else   printf(" NIE\n");
   //wyswietli NIE
-
-
-
-return 0;
 }
