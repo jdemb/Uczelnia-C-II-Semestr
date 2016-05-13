@@ -44,5 +44,4 @@ int main()
   int x;
   scanf("%i", &x);
   data(x);
-  return 0;
 }
