@@ -24,6 +24,7 @@ Jedrzej Dembowski
 3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
   * [x] [zadanie 1](lab3/zad1.c)
   * TABELA
+  * 
 |typ        |                  min|                  max|    ziarno| prec|we/wy|
 |-----------|---------------------|---------------------|----------|-----|-----|
 |short      |               -32768|                32767|          |     | i   |
