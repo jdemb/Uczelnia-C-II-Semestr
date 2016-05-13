@@ -130,5 +130,4 @@ int main()
     } while (tolower(odpowiedz) != 'q');
 
     printf("\n DZIEKUJE.\n\n");
-    return 0;
 }
