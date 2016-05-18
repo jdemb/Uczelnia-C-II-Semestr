@@ -61,6 +61,8 @@ Jedrzej Dembowski
    * [x] zadanie 2 [zapisy](Lab9/zapisy.php) [impreza](Lab9/impreza.php)
    * [x] zadanie 3 [licznik](Lab9/licznik.php) 
     (wszystkie skrypty można uruchomić na mojej stronie na sigmie)
-9. [Laboratorium 10](Lab10) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/): 
+10. [Laboratorium 10](Lab10) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/): 
    * [x] zadanie 1 [klikanie](Lab10/klikanie.php) 
     (wszystkie skrypty można uruchomić na mojej stronie na sigmie)
+11. [Laboratorium 11](Lab11) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs11/):
+    * [x] zadanie 1 [n-kąty](Lab11/nkonty.c) 

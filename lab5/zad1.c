@@ -16,7 +16,6 @@ int main()
 	iloraz_reszta(&q, &r, n, k);
 	printf("Iloraz calkowity : %i\n", q);
 	printf("Reszta z dzielenia : %i\n", r);
-	return 0;
 }
 
 
