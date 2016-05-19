@@ -66,3 +66,5 @@ Jedrzej Dembowski
     (wszystkie skrypty można uruchomić na mojej stronie na sigmie)
 11. [Laboratorium 11](Lab11) (http://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs11/):
     * [x] zadanie 1 [n-kąty](Lab11/nkonty.c) 
+	* [x] zadanie 2 [zad2](Lab11/zad2.c) 
+	* [x] zadanie 3 [kula zad3](Lab11/bryla.c) 
