@@ -1,6 +1,6 @@
 # Laboratorium C, II semestr
 Jędrzej Dembowski
-Ulubione zadania:
+|Ulubione zadania:|
   * [Lab3/zad3](lab3/zad3.c) 
   * [Lab4/zad2](Lab4/zad2.c) (użyte funkcje z biblioteki complex)
   * [Lab5/zad2](Lab5/zad2b.c) (napisana własna definicja qsort, wczytywanie pliku do sortowania z wiersza poleceń)
