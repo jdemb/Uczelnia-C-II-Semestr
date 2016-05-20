@@ -7,9 +7,9 @@ Jędrzej Dembowski
   * (małe przypomnienie) za to zadanie również po zajęciach obiecał mi Pan jedną ocenę wyżej. 
   * [Lab11/zad3](Lab11/bryla.c) (stworzona kula z refleksem światła w opengl) 
   * Zapraszam również na moją stronę na sigmie, gdzie umieszczone są moje zadania php. 
-|MOJA STRONA NA SERWERZE SIGMA|
-|-------------------------------------------|
-|http://sigma.ug.edu.pl/~jdembowski/|
+* |MOJA STRONA NA SERWERZE SIGMA|
+* |-------------------------------------------|
+* |http://sigma.ug.edu.pl/~jdembowski/|
 
 
 [Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
