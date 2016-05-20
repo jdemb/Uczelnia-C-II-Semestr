@@ -1,6 +1,12 @@
 # Laboratorium C, II semestr
-Jedrzej Dembowski
-
+Jędrzej Dembowski
+Ulubione zadania:
+  * [Lab3/zad3](lab3/zad3.c) 
+  * [Lab4/zad2](Lab4/zad2.c) (użyte funkcje z biblioteki complex)
+  * [Lab5/zad2](Lab5/zad2b.c) (napisana własna definicja qsort, wczytywanie pliku do sortowania z wiersza poleceń)
+  * (małe przypomnienie) za to zadanie również po zajęciach obiecał mi Pan jedną ocenę wyżej. 
+  * [Lab11/zad3](Lab11/bryla.c) (stworzona kula z refleksem światła w opengl) 
+  * Zapraszam również na moją stronę na sigmie, gdzie umieszczone są moje zadania php. 
 |MOJA STRONA NA SERWERZE SIGMA|
 |-------------------------------------------|
 |http://sigma.ug.edu.pl/~jdembowski/|
