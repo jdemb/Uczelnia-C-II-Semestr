@@ -1,5 +1,5 @@
 # nazwa programu:
-PROG = nkonty
+PROG = nkonty zad2 bryla
 # biblioteki:
 LIBS = -lGL -lGLU -lglut -lm
 $(PROG) : $(PROG).c
